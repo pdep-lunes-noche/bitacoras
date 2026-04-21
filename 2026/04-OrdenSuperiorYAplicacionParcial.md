@@ -16,3 +16,13 @@
 
 - [Library.hs](assets/04-LeagueOfHaskell/src/Library.hs)
 - [Spec.hs](assets/04-LeagueOfHaskell/src/Spec.hs)
+
+## 🧪 Práctica recomendada
+
+Para afianzar los conceptos, recomendamos trabajar en **Miyuki**:
+
+- 🧩 **Práctica 5**
+- 🧩 **Práctica 6**
+- 🧩 **Práctica 8**
+- 🧩 **Práctica 9**
+- 🧩 **Práctica 10**
