@@ -189,3 +189,7 @@ cuantoAgregaParaGanarSeguro(Pais1,Pais2,Cantidad):-
     ocupa(Pais2,Jugador2,Ejercito2),
     Jugador1 \= Jugador2,
     Cantidad is (Ejercito2 * 2).
+
+
+
+
