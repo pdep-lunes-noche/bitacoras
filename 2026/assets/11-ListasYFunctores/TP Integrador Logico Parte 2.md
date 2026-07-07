@@ -43,8 +43,6 @@ Queremos saber quiénes son los docentes que tienen un ejército de ayudantes, e
 
 Además, necesitamos saber cuál es el docente que tiene la mayor cantidad de ayudantes a su cargo.
 
-> 💡 *Tip: investiguen el predicado `max_member/2` de SWI-Prolog, podría serles muy útil para obtener el máximo de una lista.*
-
 ---
 
 ### Punto C — Está al pedo
