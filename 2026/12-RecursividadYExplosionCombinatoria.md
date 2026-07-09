@@ -9,3 +9,4 @@ Fecha: 06/07/2025
   * [Módulo 6](https://drive.google.com/open?id=1eWnjBoiQTRJKx4THhmPnGYbBWTDlgx4Fph18GPtIqC0): Elementos de Diseño. Delegación. Acoplamiento. Code smells. (Primera parte)
   * [Módulo 7](https://docs.google.com/document/d/1tYWw-wiPWCysq2RbeEfhoe8D1sLusDuHMD6YLNHUmIo/edit?tab=t.0): explosión combinatoria
   * [Simulador de Explosion Combinatoria](https://explosion.noise.ar/)
+  * [Enunciado Parte 3 TP Grupal Lógico](assets/12-RecursividadYExplosionCombinatoria/TP%20Integrador%20Logico%20Parte%203.md)
