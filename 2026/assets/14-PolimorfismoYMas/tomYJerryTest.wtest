@@ -1,0 +1,22 @@
+import tomYJerry.*
+
+describe "Tom" {
+    test "si tom tiene 10 de energia deberia retornar velocidad 6" {
+        assert.equals(tom.velocidad(), 6)
+    }
+    test "si es mas rapido que la presa entonces puede atraparla" {
+        jerry.peso(99)
+        assert.that(tom.puedeAtrapar(jerry))
+    }
+
+    test "si es mas lento que la presa, entonces no puede atraparla" {
+        jerry.peso(0)
+        assert.notThat(tom.puedeAtrapar(jerry))
+    }
+
+    test "tom con 10 de energia no puede atrapar un robotRaton con velocidad 8"{
+        assert.notThat(tom.puedeAtrapar(robotRaton))
+    }
+
+
+}
