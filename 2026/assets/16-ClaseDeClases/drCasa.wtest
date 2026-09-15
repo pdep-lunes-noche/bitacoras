@@ -1,0 +1,41 @@
+import drCasa.*
+
+
+describe "Infecciosas" {
+    var persona = new Persona(nombre = "Pepito Perinola", temperatura = 36, cantCelulas = 1000000, enfermedades = [])
+    var infecciosa = new Infecciosa(cantCelulasAfectadas = 1000, persona = persona)
+
+    fixture {
+        persona.contraerEnfermedad(infecciosa)
+        infecciosa.pasarDia()
+    }
+
+    test "cuandoPasa un dia, duplica su cantidad de Celulas"{
+        assert.equals(2000, infecciosa.cantCelulasAfectadas())
+    }
+
+    test "cuandoPasa un dia, aumenta temperatura de persona"{
+        assert.equals(38, persona.temperatura())
+    }
+}
+
+describe "AutoInmune"{
+    var persona = new Persona(nombre = "Pepito Perinola", temperatura = 36, cantCelulas = 1000000, enfermedades = [])
+    var autoInmune = new AutoInmune(cantCelulasAfectadas = 1000, persona = persona)
+
+    fixture {
+        persona.contraerEnfermedad(autoInmune)
+        autoInmune.pasarDia()
+    }
+
+    test "cuandoPasa un dia, mata celulas de la persona"{
+        assert.equals(999000, persona.cantCelulas())
+    }
+}
+
+describe "Personas"{
+    test "cuandoIntento matar mas celulas de las que tengo, tiro excepcion"{
+        var persona = new Persona(nombre = "Pepito Perinola", temperatura = 36, cantCelulas = 10, enfermedades = [])
+        assert.throwsException({ persona.matarCelulas(11) })
+    }
+}
