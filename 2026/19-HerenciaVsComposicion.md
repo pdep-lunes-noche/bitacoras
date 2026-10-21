@@ -13,7 +13,6 @@ Fecha: 19/10
   - [Diseño](https://docs.google.com/document/d/1lRTDAcsOwy7hkAM-UvTZtMHzN5fitrWyk1JAM-6NVJI/edit?usp=sharing)
   - [Herencia](https://docs.google.com/document/d/1KdG7NrKPgPh4bAcyLuDG2G1iWP7Ze2GFs91qzlvDKqI/edit?tab=t.0)
 
-<img src="./assets/18-Herencia/diagrama.jpeg" alt="image" />
 <img src="./assets/18-Herencia/flechas-diagrama.jpeg" alt="image" />
 
 * TP Parte 3
